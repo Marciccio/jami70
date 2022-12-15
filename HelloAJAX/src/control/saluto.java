@@ -29,7 +29,7 @@ public class saluto extends HttpServlet {
 		else {
 			out.print("Hello"+user);
 		}
-		System.out.println("Ciao Marci");
+		System.out.println("Ciao Marci"); //GRAZIE
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
